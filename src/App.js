@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.js"
 import Title from "./components/Title.js"
 import Usage from "./components/Usage.js"
 import Review from "./components/Review.js"
+import Footer from "./components/Footer.js"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Title />
       <Usage />
       <Review />
+      <Footer />
     </div>
   );
 }

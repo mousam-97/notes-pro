@@ -17,13 +17,13 @@ code {
 .navbar__1 {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 80px;
   justify-content: space-between;
   background-color: blueviolet;
 }
 
 .logo {
-  width: 150px;
+  width: 200px;
 }
 
 .items {
@@ -38,7 +38,7 @@ code {
 .items a {
   text-decoration: none;
   margin: 15px 10px 0px 10px;
-  font-size: large;
+  font-size: 25px;
   color:white;
   font-weight: 500;
 }
@@ -51,7 +51,7 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 500px;
+  height: 80vh;
   width:100%;
 }
 
@@ -64,7 +64,7 @@ code {
 }
 
 .title__banner img {
-  width: 500px;
+  width: 750px;
   margin: 60px 60px 10px 60px;
   border-radius: 10px;
 }
@@ -151,3 +151,15 @@ code {
   font-size: 20px;
   font-weight: 500;
 }
+
+.footer {
+  margin-top: 70px;
+  height: 100px;
+  background-color: #353336;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
