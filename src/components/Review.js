@@ -31,7 +31,7 @@ function Review() {
                         <img className="review__commentImg" src={quotes} alt="quotes" />
                         <div className="review__comment">
 
-                            <p>One of the best product I have ever used in my life</p>
+                            <p>One of the best product I have ever used in my life.</p>
                             <h2>Sansa Carnegie</h2>
                             <h3>Software Engineer</h3>
                         </div>
