@@ -9,42 +9,37 @@ function Price() {
             <h1>Price</h1>
             <div className="price__container">
 
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={priceImg} />
+                <Card className="card" style={{ width: '18rem' }}>
+                    <Card.Img className="card__image" variant="top" src={priceImg} />
                     <Card.Body>
                         <Card.Title>Basic</Card.Title>
                         <Card.Text>
-                            <ul>
-                                <li>30 mins per day</li>
-                                <li>100 notes per month</li>
-                            </ul>
+
+                            <h6>30 mins per day</h6>
+                            <h6>100 notes per month</h6>
 
                         </Card.Text>
                         <Button variant="primary">Rs. 499/Month</Button>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={priceImg} />
+                <Card className="card" style={{ width: '18rem' }}>
+                    <Card.Img className="card__image" variant="top" src={priceImg} />
                     <Card.Body>
                         <Card.Title>Premium</Card.Title>
                         <Card.Text>
-                            <ul>
-                                <li>90 mins per day</li>
-                                <li>300 notes per month</li>
-                            </ul>
+                            <h6>90 mins per day</h6>
+                            <h6>300 notes per month</h6>
                         </Card.Text>
                         <Button variant="primary">Rs. 999/Month</Button>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={priceImg} />
+                <Card className="card" style={{ width: '18rem' }}>
+                    <Card.Img className="card__image" variant="top" src={priceImg} />
                     <Card.Body>
                         <Card.Title>Ultimate</Card.Title>
                         <Card.Text>
-                            <ul>
-                                <li>200 mins per day</li>
-                                <li>unlimited notes</li>
-                            </ul>
+                            <h6>200 mins per day</h6>
+                            <h6>unlimited notes</h6>
                         </Card.Text>
                         <Button variant="primary">Rs. 1249/Month</Button>
                     </Card.Body>

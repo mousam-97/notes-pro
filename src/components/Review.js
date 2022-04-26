@@ -6,7 +6,7 @@ import profile2 from "../images/profile2.jpg";
 
 function Review() {
     return (
-        <div>
+        <div className="review">
             <Carousel variant="dark">
                 <Carousel.Item interval={1000}>
                     <div className="review__card">
